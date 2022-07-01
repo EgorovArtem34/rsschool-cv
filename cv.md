@@ -15,4 +15,14 @@ On the way to skills
 
 ## Education
 I'm taking the RS School course. JS Frontend development course. Preparatory stage
+
 [Github](https://github.com/EgorovArtem34/rsschool-cv)
+
+## Languages
+ * Russian (native)
+ * English (A2)
+
+## Code example
+```function multiply(a, b) {
+  return a  b
+}```
