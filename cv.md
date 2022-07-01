@@ -23,6 +23,8 @@ I'm taking the RS School course. JS Frontend development course. Preparatory sta
  * English (A2)
 
 ## Code example
-```function multiply(a, b) {
+```
+function multiply(a, b) {
   return a  b
-}```
+}
+```
