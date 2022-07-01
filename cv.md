@@ -1,6 +1,6 @@
 # Artem Egorov
-![avatar](http://....../***/***.png)
-[randomPhoto](https://games.mail.ru/hotbox/content_files/news/2018/3/bb1d9d7.jpeg)
+![avatar](https://www.meme-arsenal.com/memes/b91a4cdd8f50ec29d69e84a46efe968e.jpg)
+
 
 ## contacts
  * email artegtor@gmail.com
