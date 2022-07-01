@@ -25,6 +25,6 @@ I'm taking the RS School course. JS Frontend development course. Preparatory sta
 ## Code example
 ```
 function multiply(a, b) {
-  return a  b
+  return a * b
 }
 ```
