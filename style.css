@@ -39,7 +39,6 @@ body {
     box-shadow: 30px 30px 30px 30px rgba(0, 0, 0, 0.2);
 }
 
-
 .container {
     max-width: 1080px;
     margin: 0 auto;
@@ -62,8 +61,8 @@ body {
     width: 50%;
 }
 
-.section-avatar {
-    margin-top: 10px;
+.avatar-container {
+    margin: 10px 35px 0 0;
 }
 
 .section-title {
