@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header,
+.footer {
+    align-items: center;
+    background-color: #85c9a4c7;
+}
+
+.header {
+    border-radius: 30px 30px 0 0;
+}
+
+.footer {
+    padding: 0;
+    border-radius: 0 0 30px 30px;
+}
+
+.main {
+    background-color: #f1f7f2;
+}
+
+body {
+    margin: 30px auto;
+    width: 75%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Gulzar', sans-serif;
+    border-radius: 30px;
+    box-shadow: 30px 30px 30px 30px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.section {
+    width: 50%;
+}
+
+.avatar-container {
+    margin: 10px 35px 0 0;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #2d6334;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    margin: 15px;
+    position: relative;
+    line-height: 50px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.nav-link::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    width: 0;
+    height: 2px;
+    background-color: #599ea0;
+    transition: 1s;
+}
+
+.nav-link:hover:before {
+    width: 100%;
+}
+
+.lang-list {
+    padding: 0 20px;
+    line-height: 50px;
+    align-items: center;
+}
+
+.contact-list {
+    list-style-type: none;
+}
+
+.link {
+    color: #3e974a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.link:hover {
+    color: #3dd6db;
+}
+
+.code {
+    margin-bottom: 20px;
+    width: 40%;
+    line-height: 1.4;
+    background-color: rgba(156, 221, 178, 0.2);
+}
+
+.link-icon {
+    text-decoration: none;
+    color: #3e974a;
+}
+
+.contact-logo {
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+.color-code {
+    color: #1dd1c8;
+}
+
+.multiply {
+    color: #abad1a;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+/* header,
+main,
+footer {
+    border: 1px solid red;
+} */
